@@ -222,3 +222,13 @@ li {
 .date-time {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
 }
+
+/* Best Offer css */
+.best-offer{
+    gap: 70px;
+}
+.best-offer-mid{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
