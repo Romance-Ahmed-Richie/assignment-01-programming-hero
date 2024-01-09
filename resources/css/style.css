@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
 }
 
@@ -49,7 +49,7 @@ li {
     background-color: #F00;
 }
 
-.bg-dark{
+.bg-dark {
     background-color: #070211;
 }
 
@@ -58,7 +58,7 @@ li {
     display: flex;
 }
 
-.display-inline-block{
+.display-inline-block {
     display: inline-block;
 }
 
@@ -80,7 +80,7 @@ li {
     align-items: center;
 }
 
-.justify-content-space-between{
+.justify-content-space-between {
     justify-content: space-between;
 }
 
@@ -94,20 +94,20 @@ li {
     color: #FFF;
 }
 
-.text-black{
+.text-black {
     color: #070211;
 }
 
-.text-red{
+.text-red {
     color: #F00;
 }
 
-.text-align-center{
+.text-align-center {
     text-align: center;
 }
 
-.letter-spacing-7{
-    letter-spacing: 7px; 
+.letter-spacing-7 {
+    letter-spacing: 7px;
 }
 
 .font-size {
@@ -118,7 +118,7 @@ li {
     font-size: 20px;
 }
 
-.font-size-24{
+.font-size-24 {
     font-size: 24px;
 }
 
@@ -126,7 +126,7 @@ li {
     font-size: 32px;
 }
 
-.font-size-48{
+.font-size-48 {
     font-size: 48px;
 }
 
@@ -138,23 +138,23 @@ li {
     font-size: 72px;
 }
 
-.font-size-88{
-    font-size: 88px; 
+.font-size-88 {
+    font-size: 88px;
 }
 
 .font-weight-400 {
     font-weight: 400;
 }
 
-.font-weight-500{
+.font-weight-500 {
     font-weight: 500;
 }
 
-.font-weight-600{
+.font-weight-600 {
     font-weight: 600;
 }
 
-.font-weight-700{
+.font-weight-700 {
     font-weight: 700;
 }
 
@@ -162,16 +162,16 @@ li {
     font-weight: 900;
 }
 
-.line-height-30{
-    line-height: 30px; 
+.line-height-30 {
+    line-height: 30px;
 }
 
-.line-height-32{
-    line-height: 32px; 
+.line-height-32 {
+    line-height: 32px;
 }
 
-.line-height-88{
-    line-height: 88px; 
+.line-height-88 {
+    line-height: 88px;
 }
 
 .line-height-95 {
@@ -203,56 +203,64 @@ li {
 }
 
 /* Welcome-party css */
-.welcome-party{
+.welcome-party {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-    url('../images/Vectorrr.png');
+        url('../images/Vectorrr.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     gap: 40px;
 }
-.welcome-party p{
+
+.welcome-party p {
     max-width: 697px;
 }
-.welcome-party-image{
+
+.welcome-party-image {
     max-width: 133%;
 }
 
 /* Date & Time css */
 .date-time {
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
 }
 
 /* Best Offer css */
-.best-offer{
+.best-offer {
     gap: 70px;
 }
-.best-offer-mid{
+
+.best-offer-mid {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 20px;
 }
 
 /* Holiday Sale css */
-.holiday-sale-images{
-    gap:240px;
+.holiday-sale-images {
+    gap: 240px;
     position: relative;
 }
-.discount-image{
+
+.discount-image {
     position: absolute;
     top: 85px;
     right: 300px;
 }
-.holiday-sale p{
+
+.holiday-sale p {
     max-width: 880px;
 }
-.holiday-sale-bottom{
+
+.holiday-sale-bottom {
     width: 100%;
     min-height: 229px;
     background-color: #F00;
-    border-radius: 16px 0px 16px 16px; 
+    border-radius: 16px 0px 16px 16px;
 }
-.holiday-sale-images .sale-gift-box{
+
+.holiday-sale-images .sale-gift-box {
     max-width: 45%;
     position: absolute;
     bottom: -150px;
@@ -265,42 +273,56 @@ li {
 }
 
 /* Subscribe Newsletter css */
-.newsletter{
+.newsletter {
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05); 
+    background: rgba(255, 0, 0, 0.05);
 }
-.newsletter p{
+
+.newsletter p {
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
-.newsletter-input{
-    min-width: 648px; 
+
+.newsletter-input {
+    min-width: 648px;
     position: relative;
 }
-.newsletter-input input{
+
+.newsletter-input input {
     border-radius: 50px;
     background: #FFF;
     padding: 25px 30px;
-    font-size: 18px; 
-    font-weight: 400; 
+    font-size: 18px;
+    font-weight: 400;
     display: block;
     width: 100%;
     outline: none;
     border: 1px solid transparent;
-    color: #070211; 
+    color: #070211;
 }
-.newsletter-input button{
+
+.newsletter-input button {
     border-radius: 0px 50px 50px 0px;
-    background: #F00; 
+    background: #F00;
     padding: 24px 56px;
     outline: none;
     border: 1px solid transparent;
-    color: #FFF; 
-    font-size: 20px; 
-    font-weight: 600; 
-    cursor: pointer; 
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/* Footer css */
+.social-media-icons a {
+    margin-right: 24px;
+}
+
+.footer-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }

@@ -7,6 +7,10 @@
     margin-left: 32px;
 }
 
+.mright-16 {
+    margin-right: 16px;
+}
+
 .mbottom-16 {
     margin-bottom: 16px;
 }
@@ -51,6 +55,10 @@
     padding-top: 0px;
 }
 
+.ptop-50 {
+    padding-top: 50px;
+}
+
 .ptop-80 {
     padding-top: 80px;
 }
@@ -61,6 +69,10 @@
 
 .pright-138 {
     padding-right: 138px;
+}
+
+.pbottom-50 {
+    padding-bottom: 50px;
 }
 
 .pbottom-80 {
