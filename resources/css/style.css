@@ -45,6 +45,14 @@ li {
     height: auto;
 }
 
+.bg-red {
+    background-color: #F00;
+}
+
+.bg-dark{
+    background-color: #070211;
+}
+
 /* display css */
 .display-flex {
     display: flex;
@@ -55,6 +63,10 @@ li {
 }
 
 /* border radius css */
+.border-radius-8 {
+    border-radius: 8px;
+}
+
 .border-radius-16 {
     border-radius: 16px;
 }
@@ -138,6 +150,10 @@ li {
     font-weight: 500;
 }
 
+.font-weight-600{
+    font-weight: 600;
+}
+
 .font-weight-700{
     font-weight: 700;
 }
@@ -148,6 +164,10 @@ li {
 
 .line-height-30{
     line-height: 30px; 
+}
+
+.line-height-32{
+    line-height: 32px; 
 }
 
 .line-height-88{
@@ -196,4 +216,9 @@ li {
 }
 .welcome-party-image{
     max-width: 133%;
+}
+
+/* Date & Time css */
+.date-time {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
 }
