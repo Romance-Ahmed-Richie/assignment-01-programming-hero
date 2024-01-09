@@ -31,3 +31,38 @@ ul, li{
     max-width: 100%;
     height: auto;
 }
+
+/* display css */
+.display-flex{
+    display: flex;
+}
+
+/* All Text css */
+.font-primary{
+    font-family: 'Merriweather', serif;
+}
+.font-secondary{
+    font-family: 'Inter', sans-serif;
+}
+.text-white{
+    color: #FFF;
+}
+.font-size-32{
+    font-size: 32px;
+}
+.font-size-72{
+    font-size: 72px;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-weight-900{
+    font-weight: 900;
+}
+.line-height-95{
+    line-height: 95px; 
+}
+.text-center{
+    text-align: center;
+}
+
