@@ -252,7 +252,7 @@ li {
     background-color: #F00;
     border-radius: 16px 0px 16px 16px; 
 }
-.holiday-sale-images .gift-box{
+.holiday-sale-images .sale-gift-box{
     max-width: 45%;
     position: absolute;
     bottom: -150px;
@@ -262,4 +262,45 @@ li {
 /* Portfolio */
 .portfolio-image-gap {
     gap: 24px;
+}
+
+/* Subscribe Newsletter css */
+.newsletter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05); 
+}
+.newsletter p{
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter-input{
+    min-width: 648px; 
+    position: relative;
+}
+.newsletter-input input{
+    border-radius: 50px;
+    background: #FFF;
+    padding: 25px 30px;
+    font-size: 18px; 
+    font-weight: 400; 
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    color: #070211; 
+}
+.newsletter-input button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00; 
+    padding: 24px 56px;
+    outline: none;
+    border: 1px solid transparent;
+    color: #FFF; 
+    font-size: 20px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    position: absolute;
+    right: 0;
+    top: 0;
 }
