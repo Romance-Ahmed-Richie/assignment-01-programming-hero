@@ -1,13 +1,44 @@
 /* All Margin and Padding css */
-.mt-50{
+.mtop-50 {
     margin-top: 50px;
 }
-.mb-16{
+
+.mleft-32 {
+    margin-left: 32px;
+}
+
+.mbottom-16 {
     margin-bottom: 16px;
 }
-.mb-48{
+
+.mbottom-24 {
+    margin-bottom: 24px;
+}
+
+.mbottom-48 {
     margin-bottom: 48px;
 }
-.py-120{
+
+.mbottom-120 {
+    margin-bottom: 120px;
+}
+
+.pright-138 {
+    padding-right: 138px;
+}
+
+.pleft-126 {
+    padding-left: 126px;
+}
+
+.pyaxis-48{
+    padding: 48px 0px;;
+}
+
+.pyaxis-100 {
+    padding: 100px 0px;
+}
+
+.pyaxis-120 {
     padding: 120px 0px;
 }
