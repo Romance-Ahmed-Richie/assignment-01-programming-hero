@@ -1,0 +1,33 @@
+/* Common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul, li{
+    list-style: none;
+}
+.main-container{
+    width: 85%;
+    max-width: 1320px;
+    margin: 0 auto; 
+}
+.max-width-primary{
+    max-width: 750px;
+}
+.max-width-secondary{
+    max-width: 393px;
+}
+.full-width{
+    width: 100%;
+}
+.full-image{
+    max-width: 100%;
+    height: auto;
+}
