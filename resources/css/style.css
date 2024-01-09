@@ -232,3 +232,29 @@ li {
     border: 15px solid #F00;
     padding: 20px;
 }
+
+/* Holiday Sale css */
+.holiday-sale-images{
+    gap:240px;
+    position: relative;
+}
+.discount-image{
+    position: absolute;
+    top: 85px;
+    right: 300px;
+}
+.holiday-sale p{
+    max-width: 880px;
+}
+.holiday-sale-bottom{
+    width: 100%;
+    min-height: 229px;
+    background-color: #F00;
+    border-radius: 16px 0px 16px 16px; 
+}
+.holiday-sale-images .gift-box{
+    max-width: 45%;
+    position: absolute;
+    bottom: -150px;
+    left: 100px;
+}
