@@ -1,68 +1,118 @@
 /* Common css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     vertical-align: middle;
 }
-ul, li{
+
+ul,
+li {
     list-style: none;
 }
-.main-container{
+
+.main-container {
     width: 85%;
     max-width: 1320px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-.max-width-primary{
+
+.max-width-primary {
     max-width: 750px;
 }
-.max-width-secondary{
+
+.max-width-secondary {
     max-width: 393px;
 }
-.full-width{
+
+.full-width {
     width: 100%;
 }
-.full-image{
+
+.full-image {
     max-width: 100%;
     height: auto;
 }
 
 /* display css */
-.display-flex{
+.display-flex {
     display: flex;
 }
 
+/* border radius css */
+.border-radius-16 {
+    border-radius: 16px;
+}
+
+/* alignment css */
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 /* All Text css */
-.font-primary{
+.font-primary {
     font-family: 'Merriweather', serif;
 }
-.font-secondary{
+
+.font-secondary {
     font-family: 'Inter', sans-serif;
 }
-.text-white{
+
+.text-white {
     color: #FFF;
 }
-.font-size-32{
+
+.font-size-32 {
     font-size: 32px;
 }
-.font-size-72{
+
+.font-size-72 {
     font-size: 72px;
 }
-.font-weight-400{
+
+.font-weight-400 {
     font-weight: 400;
 }
-.font-weight-900{
+
+.font-weight-900 {
     font-weight: 900;
 }
-.line-height-95{
-    line-height: 95px; 
+
+.line-height-95 {
+    line-height: 95px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
+
+
+
+/* all individual css */
+/* ___________________ */
+
+/* banner css */
+.banner {
+    min-height: 500px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h1 {
+    max-width: 632px;
+}
