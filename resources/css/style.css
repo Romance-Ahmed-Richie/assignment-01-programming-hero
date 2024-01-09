@@ -326,3 +326,131 @@ li {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+
+/* All Margin and Padding css */
+.mtop-50 {
+    margin-top: 50px;
+}
+
+.mleft-32 {
+    margin-left: 32px;
+}
+
+.mright-16 {
+    margin-right: 16px;
+}
+
+.mbottom-16 {
+    margin-bottom: 16px;
+}
+
+.mbottom-20 {
+    margin-bottom: 20px;
+}
+
+.mbottom-22 {
+    margin-bottom: 22px;
+}
+
+.mbottom-24 {
+    margin-bottom: 24px;
+}
+
+.mbottom-28 {
+    margin-bottom: 28px;
+}
+
+.mbottom-40 {
+    margin-bottom: 40px;
+}
+
+.mbottom-43 {
+    margin-bottom: 43px;
+}
+
+.mbottom-48 {
+    margin-bottom: 48px;
+}
+
+.mbottom-65 {
+    margin-bottom: 65px;
+}
+
+.mbottom-120 {
+    margin-bottom: 120px;
+}
+
+.ptop-0 {
+    padding-top: 0px;
+}
+
+.ptop-18 {
+    padding-top: 18px;
+}
+
+.ptop-50 {
+    padding-top: 50px;
+}
+
+.ptop-80 {
+    padding-top: 80px;
+}
+
+.ptop-100 {
+    padding-top: 100px;
+}
+
+.pright-138 {
+    padding-right: 138px;
+}
+
+.pbottom-50 {
+    padding-bottom: 50px;
+}
+
+.pbottom-80 {
+    padding-bottom: 80px;
+}
+
+.pbottom-110 {
+    padding-bottom: 110px;
+}
+
+.pbottom-120 {
+    padding-bottom: 120px;
+}
+
+.pleft-126 {
+    padding-left: 126px;
+}
+
+.pxaxis-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.pyaxis-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pyaxis-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.pyaxis-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pyaxis-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
