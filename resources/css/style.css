@@ -258,3 +258,8 @@ li {
     bottom: -150px;
     left: 100px;
 }
+
+/* Portfolio */
+.portfolio-image-gap {
+    gap: 24px;
+}
